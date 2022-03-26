@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto Mono";
+  font-size: 24px;
+  scroll-behavior: smooth;
+}
+
+section {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+nav {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  
+}
+
+nav.stop {
+  display: none;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+nav .container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+  max-height: 112px;
+  margin-bottom: 25px;
+}
+
+nav .container ul {
+  display: flex;
+  flex-direction: column;
+}
+
+nav .container ul li {
+  display: inline-block;
+  width: 100%;
+}
+
+nav .container ul li a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 16px;
+  padding-right: 20px;
+  width: 100%;
+  color: white;
+  text-align: right;
+  font-weight: 700;
+}
+
+nav .container ul li.active a {
+  transition: 0.3s ease color border;
+  color: #FCBE2C;
+}
+nav .container ul li.active a span{
+  border-bottom: 2px solid #FCBE2C;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.fin-content{
+  text-align: right;
+  color: white;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.fin-title {
+  font-size: 28px;
+  line-height: 1.5rem;
+}
+
+.points{
+  font-size: 18px;
+  display: flex;
+  position: relative;
+  margin-right: 20px;
+
+}
+.points::after {
+  content: "";
+  width: 11px;
+  height: 11px;
+  border-radius: 10px;
+  background-color: #FCBE2C;
+  position: absolute;
+  right: -20px;
+  top: 8px;
+}
+
