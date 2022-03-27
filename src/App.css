@@ -93,10 +93,11 @@ nav .container ul li.active a span{
 }
 
 .points{
-  font-size: 18px;
+  font-size: 16px;
   display: flex;
   position: relative;
   margin-right: 20px;
+  font-weight: 700;
 
 }
 .points::after {

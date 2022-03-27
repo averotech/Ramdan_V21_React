@@ -48,7 +48,7 @@ const MainDev = () => {
             جوائز مالية نقدية باكثر من <span className="font-bold " style={{ fontWeight:1000,fontSize:17.5 }}>30 الف دولار</span>
           </p>
           <span
-            className="h-3 w-3 mb-1 bg-amber-400 inline-block "
+            className="h-2 w-2 mb-1 bg-amber-400 inline-block "
             style={{ borderRadius: "50%" }}
           ></span>
         </div>
@@ -60,7 +60,7 @@ const MainDev = () => {
              اجمالي بوانص تصل الى <span style={{ fontWeight:1000,fontSize:17.5 }}>100 الف دولار</span>
           </p>
           <span
-            className="h-3 w-3 mt-1 bg-amber-400 inline-block"
+            className="h-2 w-2 mt-1 bg-amber-400 inline-block"
             style={{ borderRadius: "50%" }}
           ></span>
         </div>

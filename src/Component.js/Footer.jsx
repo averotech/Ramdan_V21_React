@@ -33,7 +33,7 @@ const Footer = () => {
           للنجاحات المستقبلية.
         </p>
       </div>
-      <p className="text-white text-sm text-left pl-40 pt-6" style={{ letterSpacing:.15 }}>Copyright 2021 FXDD. All rights reserved.</p>
+      <p className="text-white text-left pl-40 pt-6 mb-7" style={{ letterSpacing:.15,fontSize:14 }}>Copyright 2021 FXDD. All rights reserved.</p>
     </div>
   );
 };

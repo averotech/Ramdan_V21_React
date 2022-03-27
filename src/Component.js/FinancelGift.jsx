@@ -11,7 +11,7 @@ const content = {
 const FinancelGift = () => {
   return (
     <div
-      className="offers flex lg:flex-row justify-between lg:items-start md:flex-col  md:justify-end md:items-end   lg:gap-44 lg:pt-44"
+      className="offers flex lg:flex-row justify-between lg:items-start md:flex-col  md:justify-end md:items-end lg:mt-28  lg:gap-44 "
       style={{ maxWidth: 828 }}
       id="offers"
     >
