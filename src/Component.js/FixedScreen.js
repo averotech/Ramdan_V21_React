@@ -25,7 +25,7 @@ export default function FixedScreen() {
       />
       <img
         className="fixed bottom-56 left-24"
-        style={{ left: "18%", width: 120, height: 117, bottom: "12%" }}
+        style={{ left: "15%", width: 120, height: 117, bottom: "12%" }}
         src={require("../Assets/MOON.png")}
       />
       <img

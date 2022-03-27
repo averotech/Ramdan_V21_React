@@ -3,7 +3,7 @@ import React from "react";
 const MainDev = () => {
   return (
     <div
-      className="main flex lg:flex-row justify-between lg:items-start md:flex-col  md:justify-end md:items-end md:mt-8 md:mb-12  lg:gap-44 pt-44 "
+      className="main flex lg:flex-row justify-between lg:items-start md:flex-col  md:justify-end md:items-end md:mt-8 md:mb-12  lg:gap-44 lg:mt-40 "
       id="main"
       style={{ maxWidth: 828 }}
     >

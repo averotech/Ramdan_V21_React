@@ -71,7 +71,7 @@ const AnimationFade = () => {
 
           <section id="home">
             <ScrollPage page={0}>
-              <Animator animation={batch(Fade(), Sticky(), size.width > 1024 ? MoveOut(0, -500) : MoveOut(0, -900),)}>
+              <Animator animation={batch(Fade(), Sticky(), size.width > 1024 ? MoveOut(0, -900) : MoveOut(0, -900),)}>
                 <MainDev />
               </Animator>
             </ScrollPage>
@@ -83,7 +83,7 @@ const AnimationFade = () => {
                   Fade(),
                   Sticky(),
                   size.width > 1024 ? MoveIn(0, 500) : MoveIn(0, 900),
-                  size.width > 1024 ? MoveOut(0, -500) : MoveOut(0, -900)
+                  size.width > 1024 ? MoveOut(0, -800) : MoveOut(0, -900)
                 )}
               >
                 <BounesDev />
@@ -97,7 +97,7 @@ const AnimationFade = () => {
                   Fade(),
                   Sticky(),
                   size.width > 1024 ? MoveIn(0, 500) : MoveIn(0, 900),
-                  size.width > 1024 ? MoveOut(0, -800) : MoveOut(0, -900)
+                  size.width > 1024 ? MoveOut(0, -500) : MoveOut(0, -900)
                 )}
               >
                 <FinancelGift />
