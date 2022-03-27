@@ -43,7 +43,7 @@ const MainDev = () => {
         <div className="flex flex-row justify-end pt-1 items-center">
           <p
             className=" text-white font-normal leading-10 pr-1.5 mb-1 "
-            style={{ letterSpacing: -0.15, fontSize: 15.5 }}
+            style={{ letterSpacing: -0.15, fontSize: 17.5 }}
           >
             جوائز مالية نقدية باكثر من <span className="font-bold " style={{ fontWeight:1000,fontSize:17.5 }}>30 الف دولار</span>
           </p>
@@ -55,7 +55,7 @@ const MainDev = () => {
         <div className="flex flex-row justify-end items-center -mt-3">
           <p
             className=" mt-1.5 text-white font-normal leading-10 pr-1.5"
-            style={{ letterSpacing: -0.15, fontSize: 15.5  }}
+            style={{ letterSpacing: -0.15, fontSize: 17.5  }}
           >
              اجمالي بوانص تصل الى <span style={{ fontWeight:1000,fontSize:17.5 }}>100 الف دولار</span>
           </p>

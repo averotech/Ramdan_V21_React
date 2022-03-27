@@ -29,7 +29,7 @@ const BounesDev = () => {
 
   return (
     <div
-      className="bonus flex lg:flex-row justify-between lg:items-start md:flex-col  md:justify-end md:items-end md:mt-8 md:mb-12  lg:gap-44"
+      className="bonus flex lg:flex-row justify-between lg:items-start md:flex-col  md:justify-end md:items-end md:mt-8 md:mb-12 lg:mb-0  lg:gap-44"
       
       style={{ alignItems: "flex-start", maxWidth: 828 }}
       id="bouns"
