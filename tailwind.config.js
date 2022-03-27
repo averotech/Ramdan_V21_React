@@ -5,7 +5,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        Montserrat:"'Montserrat', sans-serif"
+        Montserrat:"'Montserrat', sans-serif",
+        Inter: "'Inter', sans-serif",
+        Tajawal: "'Tajawal', sans-serif",
       }
     },
   },
